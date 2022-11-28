@@ -7,7 +7,7 @@ Spice.create!([
     image: "https://p1.pxfuel.com/preview/702/133/186/allspice-piment-pimenta-dioica-pimenta-officinalis.jpg",
     description: "Allspice has a curious name, doesn't it? Allspice. It's because it smells like so many other spices all smashed into one. Cinnamon, clove, cardamom.... all the best in one little berry!",
     notes: "Pungent, Sweet, Warm & Earthy",
-    rating: "3.5"
+    rating: "3"
   },
   {
     title: "Caraway Seeds",
