@@ -7,7 +7,7 @@ RSpec.describe Spice, type: :model do
       image: "https://www.spicejungle.com/pub/media/catalog/product/cache/3db4d5004662ba3673dd7a19a8603593/w/h/whole-allspice-berries.jpg",
       description: "Allspice has a curious name, doesn't it? Allspice. It's because it smells like so many other spices all smashed into one. Cinnamon, clove, cardamom.... all the best in one little berry!",
       notes: "Pungent, Sweet, Warm & Earthy",
-      rating: 3
+      rating: 3.5
     )
   end
 
@@ -43,7 +43,7 @@ RSpec.describe Spice, type: :model do
 
   describe '#rating' do
     it 'returns the spice\'s rating' do
-      expect(spice.rating).to eq(3)
+      expect(spice.rating).to eq(3.5)
     end
   end
 end
